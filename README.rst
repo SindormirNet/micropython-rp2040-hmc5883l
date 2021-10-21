@@ -15,7 +15,7 @@ Upload `hmc5883l.py`_ to the micro-controller (e.g. you can use
 
   from hmc5883l import HMC5883L
 
-  sensor = HMC5883L(scl=4, sda=5)
+  sensor = HMC5883L(scl=1, sda=0)
 
   x, y, z = sensor.read()
   print(sensor.format_result(x, y, z))
