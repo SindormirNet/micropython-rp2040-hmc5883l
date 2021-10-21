@@ -2,7 +2,7 @@ HMC5883L ESP8266 Micropython
 ============================
 
 A class for working with the HMC5883L_ 3-axis digital compass IC with
-micropython on the esp8266.
+micropython on the Raspberry Pi Pico (RP2040).
 
 
 Usage
