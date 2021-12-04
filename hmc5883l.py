@@ -17,6 +17,7 @@ class HMC5883L:
         '8.1':  (7 << 5, 4.35)
     }
 
+    # could you add some comments here to explain what scl, sda, address and guass do?
     def __init__(self, scl=1, sda=0, address=30, gauss='1.3', declination=(0, 0)):
         self.i2c = i2c = machine.I2C(0, scl=machine.Pin(scl), sda=machine.Pin(sda), freq=100000)
 
